@@ -28,3 +28,110 @@
 .site-header {
     margin-bottom: 0
 }
+
+
+.actions button[name=update_cart],
+.archive-shop__breadcrumbs .template-information .information-sidebar ul li a,
+.base-link,
+.shipping-calculator-button,
+.shipping-calculator-form button[name=calc_shipping],
+.tax-recipe_category .recipe-list__menu li:first-child a,
+.tax-recipe_product .recipe-list__menu li:first-child a,
+.template-information .information-sidebar .archive-shop__breadcrumbs ul li a,
+.template-information .information-sidebar .nav li a,
+.woocommerce-checkout .woocommerce-form-login-toggle a,
+.woocommerce-MyAccount-navigation-link a {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    padding-bottom: 4px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    background: transparent
+}
+
+.actions button[name=update_cart]:before,
+.archive-shop__breadcrumbs .template-information .information-sidebar ul li a:before,
+.base-link:before,
+.shipping-calculator-button:before,
+.shipping-calculator-form button[name=calc_shipping]:before,
+.tax-recipe_category .recipe-list__menu li:first-child a:before,
+.tax-recipe_product .recipe-list__menu li:first-child a:before,
+.template-information .information-sidebar .archive-shop__breadcrumbs ul li a:before,
+.template-information .information-sidebar .nav li a:before,
+.woocommerce-checkout .woocommerce-form-login-toggle a:before,
+.woocommerce-MyAccount-navigation-link a:before {
+    content: "";
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAcsAAAAVCAYAAAApQcWsAAAACXBIWXMAACxKAAAsSgF3enRNAAAB1ElEQVR4nO3d4VHCQBCG4V2G/9CBdmBKsAPpQEuxBK1A7YASpINYgaGDUMEyFy4OJAQhd0cYeJ8Zxz+SOS7MfNnjvFUzk0umqpmITI8c4il/2/SYaBrcmCaJro3btrjgd1+KSD7wGHI/jnMpzWzo94xEgsJSVZsBc+9/mrqCyAXbAzcXAI62SvwgkvJB5zvBNXMzS/5Q1ApLVZ36aqiu0rYD0P2+Sz0oAAAG8tNYkZib2dtfWKrqp68ACUMAADZWZjYdyyYoX0XkmYkBAGDHRFVnVWWpqiWbUAAA2Ot95BKToAQAoFM2EpEZ8wMAQKdMRaRgUw8AAN1cWF72qQQAAAxrMeIGAABwUE5lCQBAt1W9wQcAALS5oJyZWUFYAgCwy4Xkl6sozaw6z9ad4LNkNywARLH0/2EQU4rDx2XgzjBJO7RsnXF+yL4GH6U/mL015+47y7mIPKUaNICrE6M1WIwAKCIFU+GW2SJcB1ds7D+0hCVwnNDKITQkQl9/lnZGwLVR33brlzuLHpqtbE4R0pg3pKKgQS+Ak9UHqec0YY4mpPLoWzWEfPfAEhQA/KMOyxcR+TjDZPXt8B0SBn0DiOUqAEBlu/nzvp1BXVjKAgDcBhFZA7dBkkZ9pTtFAAAAAElFTkSuQmCC);
+    background-repeat: no-repeat;
+    background-size: 100% 4px;
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    -webkit-transition: -webkit-transform .25s cubic-bezier(0, .5, .5, 1);
+    transition: -webkit-transform .25s cubic-bezier(0, .5, .5, 1);
+    -o-transition: -o-transform .25s cubic-bezier(0, .5, .5, 1);
+    transition: transform .25s cubic-bezier(0, .5, .5, 1);
+    transition: transform .25s cubic-bezier(0, .5, .5, 1), -webkit-transform .25s cubic-bezier(0, .5, .5, 1), -o-transform .25s cubic-bezier(0, .5, .5, 1);
+    -webkit-transform: scaleX(0);
+    -o-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 100% 0;
+    -o-transform-origin: 100% 0;
+    transform-origin: 100% 0
+}
+
+.actions button[name=update_cart][disabled]:before,
+.archive-shop__breadcrumbs .template-information .information-sidebar ul li a[disabled]:before,
+.base-link[disabled]:before,
+.shipping-calculator-button[disabled]:before,
+.shipping-calculator-form button[name=calc_shipping][disabled]:before,
+.tax-recipe_category .recipe-list__menu li:first-child a[disabled]:before,
+.tax-recipe_product .recipe-list__menu li:first-child a[disabled]:before,
+.template-information .information-sidebar .archive-shop__breadcrumbs ul li a[disabled]:before,
+.template-information .information-sidebar .nav li a[disabled]:before,
+.woocommerce-checkout .woocommerce-form-login-toggle a[disabled]:before,
+.woocommerce-MyAccount-navigation-link a[disabled]:before {
+    opacity: .3
+}
+
+.actions button.active[name=update_cart]:before,
+.actions button[name=update_cart]:not([disabled]):hover:before,
+.active.shipping-calculator-button:before,
+.archive-shop__breadcrumbs .template-information .information-sidebar ul li a.active:before,
+.archive-shop__breadcrumbs .template-information .information-sidebar ul li a:not([disabled]):hover:before,
+.base-link.active:before,
+.base-link:not([disabled]):hover:before,
+.shipping-calculator-button:not([disabled]):hover:before,
+.shipping-calculator-form button.active[name=calc_shipping]:before,
+.shipping-calculator-form button[name=calc_shipping]:not([disabled]):hover:before,
+.tax-recipe_category .recipe-list__menu li:first-child a.active:before,
+.tax-recipe_category .recipe-list__menu li:first-child a:not([disabled]):hover:before,
+.tax-recipe_product .recipe-list__menu li:first-child a.active:before,
+.tax-recipe_product .recipe-list__menu li:first-child a:not([disabled]):hover:before,
+.template-information .information-sidebar .archive-shop__breadcrumbs ul li a.active:before,
+.template-information .information-sidebar .archive-shop__breadcrumbs ul li a:not([disabled]):hover:before,
+.template-information .information-sidebar .nav li a.active:before,
+.template-information .information-sidebar .nav li a:not([disabled]):hover:before,
+.woocommerce-checkout .woocommerce-form-login-toggle a.active:before,
+.woocommerce-checkout .woocommerce-form-login-toggle a:not([disabled]):hover:before,
+.woocommerce-MyAccount-navigation-link a.active:before,
+.woocommerce-MyAccount-navigation-link a:not([disabled]):hover:before {
+    -webkit-transform: scaleX(1);
+    -o-transform: scaleX(1);
+    transform: scaleX(1);
+    -webkit-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%
+}
+
+.actions button:focus[name=update_cart],
+.shipping-calculator-form button:focus[name=calc_shipping],
+button.base-link:focus,
+button.shipping-calculator-button:focus {
+    outline: none
+}
