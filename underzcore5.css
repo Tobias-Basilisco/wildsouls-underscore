@@ -17,8 +17,7 @@ body {
     background-color: ;
 }
 
-
-.underZcore {
+.underZcore5 {
     position: relative;
     display: inline-block;
     overflow: hidden;
@@ -33,7 +32,7 @@ body {
 }
 
 
-.fixed-underZcore:before {
+.fixed-underZcore5:before {
     content: "";
     border-radius: 15px;
     background-color: rgb(255, 7, 7);
@@ -48,7 +47,7 @@ body {
 }
 
 
-.underZcore::before {
+.underZcore5::before {
     content: "";
     background-color: white;
     background-size: 100% 4px;
@@ -75,7 +74,7 @@ body {
 
 
 
-.underZcore:hover::before {
+.underZcore5:hover::before {
     -webkit-transform: scaleX(0);
     -o-transform: scaleX(0);
     transform: scaleX(0);
@@ -83,5 +82,4 @@ body {
     -o-transform-origin: 50% 0;
     transform-origin: 50% 0
 }
-
 

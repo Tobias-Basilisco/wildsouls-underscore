@@ -12,21 +12,16 @@ a{
     color:black;
 }
 
-
-
-.underZcore {
+.underZcore2 {
     position: relative;
     display: inline-block;
     overflow: hidden;
     padding-bottom: 4px;
-
-
 }
 
-
-.underZcore:before {
+.underZcore2:before {
     content: "";
-    background-image: url('underscore.png');
+    background-image: url('underzcore.png');
     background-repeat: no-repeat;
     background-size: 100% 4px;
     width: 100%;
@@ -47,14 +42,7 @@ a{
     transform-origin: 50% 0
 }
 
-
-.underZcore[disabled]:before {
-    opacity: .3
-}
-
-
-.underZcore.active:before,
-.underZcore:not([disabled]):hover:before {
+.underZcore2:hover:before {
     -webkit-transform: scaleX(1);
     -o-transform: scaleX(1);
     transform: scaleX(1);

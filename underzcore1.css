@@ -12,14 +12,14 @@ a{
     color:black;
 }
 
-.underZcore {
+.underZcore1 {
     position: relative;
     display: inline-block;
     overflow: hidden;
     padding-bottom: 4px;
 }
 
-.underZcore:before {
+.underZcore1:before {
     content: "";
     background-image: url('underzcore.png');
     background-repeat: no-repeat;
@@ -42,14 +42,7 @@ a{
     transform-origin: 100% 0
 }
 
-
-.underZcore[disabled]:before {
-    opacity: .3
-}
-
-
-.underZcore.active:before,
-.underZcore:not([disabled]):hover:before {
+.underZcore1:hover:before {
     -webkit-transform: scaleX(1);
     -o-transform: scaleX(1);
     transform: scaleX(1);
