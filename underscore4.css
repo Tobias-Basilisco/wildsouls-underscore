@@ -1,0 +1,64 @@
+.nav {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+
+
+.base-link {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    padding-bottom: 4px;
+
+
+}
+
+
+.base-link::before {
+    content: "";
+    border-radius: 15px;
+    background-color: rgb(255, 7, 7);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    -webkit-transition: -webkit-transform 2s cubic-bezier(0, 0, 0, 1);
+    transition: -webkit-transform 2s cubic-bezier(0, 0, 0, 1);
+    -o-transition: -o-transform 2s cubic-bezier(0, 0, 0, 1);
+    transition: transform 2s cubic-bezier(0, 0, 0, 1);
+    transition: transform 2s cubic-bezier(0, 0, 0, 1), -webkit-transform 2s cubic-bezier(0, 0, 0, 1), -o-transform 2s cubic-bezier(0, 0, 0, 1);
+    -webkit-transform: scaleY(0);
+    -o-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: 0 50%;
+    -o-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+}
+
+
+
+
+
+
+.base-link:hover:before {
+    -webkit-transform: scaleY(1);
+    -o-transform: scaleY(1);
+    transform: scaleY(1);
+    -webkit-transform-origin: 0 50%;
+    -o-transform-origin:  0 50%;;
+    transform-origin: 0 50%;
+}
+
+
