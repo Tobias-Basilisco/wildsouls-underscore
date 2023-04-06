@@ -42,9 +42,9 @@ a{
     -webkit-transform: scaleX(0);
     -o-transform: scaleX(0);
     transform: scaleX(0);
-    -webkit-transform-origin: 100% 0;
-    -o-transform-origin: 100% 0;
-    transform-origin: 100% 0
+    -webkit-transform-origin: 50% 0;
+    -o-transform-origin: 50% 0;
+    transform-origin: 50% 0
 }
 
 
@@ -58,9 +58,9 @@ a{
     -webkit-transform: scaleX(1);
     -o-transform: scaleX(1);
     transform: scaleX(1);
-    -webkit-transform-origin: 0 100%;
-    -o-transform-origin: 0 100%;
-    transform-origin: 0 100%
+    -webkit-transform-origin: 50%;
+    -o-transform-origin: 50% 0;
+    transform-origin: 50% 0
 }
 
 
