@@ -14,7 +14,7 @@ a{
 
 
 
-.base-link {
+.underZcore {
     position: relative;
     display: inline-block;
     overflow: hidden;
@@ -24,7 +24,7 @@ a{
 }
 
 
-.base-link::before {
+.underZcore::before {
     content: "";
     border-radius: 15px;
     background-color: rgb(255, 7, 7);
@@ -52,7 +52,7 @@ a{
 
 
 
-.base-link:hover:before {
+.underZcore:hover:before {
     -webkit-transform: scaleY(1);
     -o-transform: scaleY(1);
     transform: scaleY(1);

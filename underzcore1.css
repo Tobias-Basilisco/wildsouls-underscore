@@ -12,21 +12,16 @@ a{
     color:black;
 }
 
-
-
-.base-link {
+.underZcore {
     position: relative;
     display: inline-block;
     overflow: hidden;
     padding-bottom: 4px;
-
-
 }
 
-
-.base-link:before {
+.underZcore:before {
     content: "";
-    background-image: url('underscore.png');
+    background-image: url('underzcore.png');
     background-repeat: no-repeat;
     background-size: 100% 4px;
     width: 100%;
@@ -42,25 +37,25 @@ a{
     -webkit-transform: scaleX(0);
     -o-transform: scaleX(0);
     transform: scaleX(0);
-    -webkit-transform-origin: 50% 0;
-    -o-transform-origin: 50% 0;
-    transform-origin: 50% 0
+    -webkit-transform-origin: 100% 0;
+    -o-transform-origin: 100% 0;
+    transform-origin: 100% 0
 }
 
 
-.base-link[disabled]:before {
+.underZcore[disabled]:before {
     opacity: .3
 }
 
 
-.base-link.active:before,
-.base-link:not([disabled]):hover:before {
+.underZcore.active:before,
+.underZcore:not([disabled]):hover:before {
     -webkit-transform: scaleX(1);
     -o-transform: scaleX(1);
     transform: scaleX(1);
-    -webkit-transform-origin: 50%;
-    -o-transform-origin: 50% 0;
-    transform-origin: 50% 0
+    -webkit-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%
 }
 
 

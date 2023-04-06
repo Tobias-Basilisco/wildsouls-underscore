@@ -23398,7 +23398,7 @@ body.assorted_product input[type=text]::placeholder {
 
 .actions button[name=update_cart],
 .archive-shop__breadcrumbs .template-information .information-sidebar ul li a,
-.base-link,
+.underZcore,
 .shipping-calculator-button,
 .shipping-calculator-form button[name=calc_shipping],
 .tax-recipe_category .recipe-list__menu li:first-child a,
@@ -23420,7 +23420,7 @@ body.assorted_product input[type=text]::placeholder {
 
 .actions button[name=update_cart]:before,
 .archive-shop__breadcrumbs .template-information .information-sidebar ul li a:before,
-.base-link:before,
+.underZcore:before,
 .shipping-calculator-button:before,
 .shipping-calculator-form button[name=calc_shipping]:before,
 .tax-recipe_category .recipe-list__menu li:first-child a:before,
@@ -23453,7 +23453,7 @@ body.assorted_product input[type=text]::placeholder {
 
 .actions button[name=update_cart][disabled]:before,
 .archive-shop__breadcrumbs .template-information .information-sidebar ul li a[disabled]:before,
-.base-link[disabled]:before,
+.underZcore[disabled]:before,
 .shipping-calculator-button[disabled]:before,
 .shipping-calculator-form button[name=calc_shipping][disabled]:before,
 .tax-recipe_category .recipe-list__menu li:first-child a[disabled]:before,
@@ -23470,8 +23470,8 @@ body.assorted_product input[type=text]::placeholder {
 .active.shipping-calculator-button:before,
 .archive-shop__breadcrumbs .template-information .information-sidebar ul li a.active:before,
 .archive-shop__breadcrumbs .template-information .information-sidebar ul li a:not([disabled]):hover:before,
-.base-link.active:before,
-.base-link:not([disabled]):hover:before,
+.underZcore.active:before,
+.underZcore:not([disabled]):hover:before,
 .shipping-calculator-button:not([disabled]):hover:before,
 .shipping-calculator-form button.active[name=calc_shipping]:before,
 .shipping-calculator-form button[name=calc_shipping]:not([disabled]):hover:before,
@@ -23497,7 +23497,7 @@ body.assorted_product input[type=text]::placeholder {
 
 .actions button:focus[name=update_cart],
 .shipping-calculator-form button:focus[name=calc_shipping],
-button.base-link:focus,
+button.underZcore:focus,
 button.shipping-calculator-button:focus {
     outline: none
 }
